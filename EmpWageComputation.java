@@ -75,7 +75,7 @@ class EmpWageComputation{
 		WorkHrs = person.get_emp_type(empType);
 		DailyWage = person.get_daily_salary(WorkHrs);
 		System.out.println("The daily wage is: "+DailyWage);
-      while (loop_end==0){
+      while (true){
       salary_and_hours = person.get_monthly_salary(WorkHrs,TotalDays,empType);
 		if(TotalDays==20 || salary_and_hours[1]==100){
 			if(TotalDays==20){

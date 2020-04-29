@@ -88,7 +88,6 @@ class EmpWageComputation{
 	 int WorkHrs;
 	 // Totaldays variable counts days till 20 starting from day 1
 	 int TotalDays=1;
-	 int loop_end=0;
 	 int [] salary_and_hours = new int[2];
          System.out.println("Welcome to Employee Wage Computation Program");
 	 EmployeeUtils person = new EmployeeUtils();
@@ -100,7 +99,7 @@ class EmpWageComputation{
 	 DailyWage = person.getDailyWage(WorkHrs);
 	 System.out.println("The daily wage is: "+DailyWage);
 	 //calculating monthly wage of employee according to type of employee
-         while (loop_end==0){
+         while (true){
 	    /*
 	    *Storing salary and total working hours returned from getMonthlyWage method in salary_and_hours array
 	    */

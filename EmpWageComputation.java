@@ -1,5 +1,5 @@
 /*
-*Employee Wage Computation Program
+*Employee Wage Computation Program.
 *calculate monthly wages till 20 days or 100 working hours reached
 *@author Abhishek Agarwal
 */

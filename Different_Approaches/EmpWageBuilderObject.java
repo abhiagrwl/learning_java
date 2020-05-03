@@ -6,8 +6,11 @@
 //Employee Wage Class 
 
 public class EmpWageBuilderObject
-{
-		//Constants
+{		
+
+		/**
+		 *  Constants
+		 */
 		public static final int IS_FULL_TIME =1;
                 public static final int IS_PART_TIME =2;
 
@@ -30,13 +33,17 @@ public class EmpWageBuilderObject
 		{	
 	
 			EmpWageBuilderObject dMart = new EmpWageBuilderObject("Dmart",20,20,100);
-			//variables
+			/**
+			 *  variables
+			 */
 			int empHrs =0;
 			int empWage=0;
 			int TotalEmpWage=0;
 			int TotalWorkingHours=0;
 			int day =0;
-			//Computation
+			/**
+			 *  Computation
+			 */
 			while( day < dMart.numOfWorkingDays || TotalWorkingHours <= dMart.maxHoursPerMonth)
 			{	
 				double empCheck = Math.floor(Math.random() * 10 % 3 );
